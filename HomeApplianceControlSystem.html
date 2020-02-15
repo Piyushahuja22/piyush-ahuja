@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HACS</title>
+	<link rel="stylesheet" type="text/css" href="ProjectPage/css/style_hacs.css">
+	<link rel="stylesheet" href="ProjectPage/css/w3.css">
+
+
+<style>
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+</style>
+
+
+</head>
+<body class="body" style="background-color: #eee;">
+
+	<div class="apple_mac_div">
+		<img class="apple_mac_image" src="ProjectPage/images/apple_mac.jpg">
+		<div class="top-left"><h1>Home Appliance Control System</h1></div>
+		<div class="right-centered"><p style="left:50%;" >Stop wasting valuable energy, apply the Home Automation today!</p></div>
+		<div class="right-centered"><button class="start-today-button">Start Today</button></div>
+	</div>
+
+	<div class="about-project">
+		<div class="about-project-left" style="background-color: #ccc; width: 40%;"> 
+      <img src="ProjectPage/images/aboutproject.jpg" style="width: 100%;height: 100%; padding-top: 120px;padding-bottom: 120px; padding-left:5px ;padding-right: 5px">
+    </div>
+		<div class="about-project-right" style=" width: 60%;margin-left: 40%;background-color: #ccc; height: 100%;">
+			<p style="z-index: 25;color: red;text-shadow:2px 2px #ccc;font-size: 30px;margin-top: 30px;">About Project</p>
+
+			<p style="padding-top:80px;padding-bottom: 150px;padding-left: 100px;padding-right: 100px;word-spacing: 6px;">A Smart Home Appliance Controller is a system which provides various services to remotely operate on home appliances, such as microwave oven, TV, and garage door etc. through remote devices such as mobile phone, desktop and palm-top.
+				The Home appliance control system is controlled either by a cell phone or a by palm top or by a PC. They are connected either through wireless application protocol (WAP) or the Internet. It controls various appliances such as a microwave, TV etc. The HACS system receives commands from remote devices that are manipulated by user. The system in turn dispatch commands to respective appliances that will perform the actions. HACS is responsible for keeping track of the states of the devices. If something goes wrong, it will notify the user by sending messages back to the remote devices as well as emergency department if necessary. The commands are send through browser and the response is being catched at the server and according to that command the devices are controlled. This is how communication is done between devices and server
+			</p>
+
+		</div>
+	</div>
+
+
+
+
+
+
+
+<div >
+	
+	<div><p class="team_div_p" style="margin-left: -200px;z-index: 25;padding-top: 2680px;text-shadow:2px 2px #ccc;">Graphical Analysis from MongoDB</p></div>
+	<div class="w3-content w3-display-container" style="max-width:1250px;padding: -10px;margin-top: 1430px;margin-left: 50px;">
+	 <img class="mySlides" src="ProjectPage/images/Graph-image1.png" style="width:100%">
+	 <img class="mySlides" src="ProjectPage/images/Graph-image2.png" style="width:100%">
+	 <img class="mySlides" src="ProjectPage/images/Graph-image3.png" style="width:100%">
+	 <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+    <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+    <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+  </div>
+</div>
+</div>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
+
+
+
+
+<div class="team_div" >
+	<p class="team_div_p">The Team</p>
+
+
+
+
+<div class="w3-col l3 m6 w3-margin-bottom" style="margin: 40px;opacity: 1;">
+      <div class="w3-card" style="background-color: #f6f6f6;">
+        <img src="ProjectPage/images/Prachi.jpg" alt="John" style="width:90%; border-radius: 50%;margin:10px;">
+        <div class="w3-container">
+          <h3>Prachi Godha</h3>
+          <p class="w3-opacity">Developer & Designer</p>
+          <p>Working 2 years experience with Java, HTML, CSS and SQL. For more visit LinkedIn profile.</p>
+          <a href="https://www.linkedin.com/in/prachi-godha-801353139/" style="color: red;"><p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i>LinkedIn</button></p></a>
+        </div>
+      </div>
+    </div>
+
+
+
+<div class="w3-col l3 m6 w3-margin-bottom" style="margin: 40px;opacity: 1;">
+      <div class="w3-card" style="background-color: #f6f6f6;">
+        <img src="ProjectPage/images/Piyush.jpg" alt="John" style="width:90%; border-radius: 50%;margin:10px;">
+        <div class="w3-container">
+          <h3>Piyush Ahuja</h3>
+          <p class="w3-opacity">Developer & Designer</p>
+          <p>Working 2 years experience with Java, MongoDB, HTML, CSS SQL. For more, visit website below.</p>
+          <a href="http://piyushahuja.tk/" style="color: red;"><p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i>Piyushahuja.tk</button></p></a>
+        </div>
+      </div>
+    </div>
+
+
+
+<div class="w3-col l3 m6 w3-margin-bottom" style="margin: 40px;opacity: 1;">
+      <div class="w3-card" style="background-color: #f6f6f6;">
+        <img src="ProjectPage/images/Rashmi.jpg" alt="John" style="width:90%; border-radius: 50%;margin:10px;">
+        <div class="w3-container">
+          <h3>Rashmi Gawade</h3>
+          <p class="w3-opacity">Developer & Designer</p>
+          <p>Working a year experience with Java, HTML, CSS and SQL. For more visit LinkedIn profile.</p>
+          <a href="https://www.linkedin.com/in/rashmi-gawade-648939122/" style="color: red;"><p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i>LinkedIn</button></p></a>
+        </div>
+      </div>
+    </div>
+
+
+ </div>
+
+ <div style="height: 100px;background-color: #0cc9fc;margin-top:700px;width: 100%">
+  <center ><p style="padding: 30px;">Links for source code and demo will be available soon.</p></center>
+ </div>
+
+</body>
+</html>

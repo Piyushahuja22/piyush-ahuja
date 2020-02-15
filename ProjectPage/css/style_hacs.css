@@ -1,0 +1,161 @@
+.apple_mac_image{
+	width: 100%;
+	height: 670px;
+}
+
+.apple_mac_div{
+	position: absolute;
+    color: white;
+}
+
+.top-left {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    font-style: italic;
+    font-size: x-large;
+    font-family: cursive;
+    text-decoration: underline;
+    
+}
+
+
+.right-centered {
+    position: absolute;
+    top: 42%;
+    left: 68%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+}
+
+
+.start-today-button {
+	background: #ccc;
+	margin-top: 650px;
+	margin-right: 300px;
+	margin-left: 230px;
+	text-align: center;
+	font-size: 30px;
+	opacity: 0.7;
+	font-weight: 500px;
+	width: 30%;
+	height: 60px;
+}
+
+.apple_mac_image .h1{
+	color: white;
+}
+
+.body{
+	padding: 0;
+    margin: 0;
+}
+
+.about-project {
+	position: absolute;
+	margin-top: 670px;
+	width: 100%;
+	height: 670px;
+	background-color: white;
+}
+
+.about-project-left {
+	width: 30%;
+	position: absolute;
+	height: 100%;
+	background-color: red;
+	color: black;
+}
+
+
+.about-project-right {
+	width: 70%;
+    margin-top: -30px;
+	margin-left: 30%;
+	height: 100%;
+	background-color: blue;
+	color: black;
+}
+
+
+
+#card_UI li {
+  margin: 0 1.75%;
+  padding-top: 2200px;
+	align-items: center;
+	position: absolute;
+	display: inline-block;
+	color: red;
+  border-radius: 10px;
+	background-color: white;
+	border-radius: 5px;
+	width: 20%;
+	
+  height: 400px;
+}
+
+#card_UI li:hover {
+  opacity: 0.8;
+}
+
+
+.imageWrapper {
+    padding: 0.2%;
+}
+
+.imageWrapper li{
+	padding-top: 2200px;
+    display: inline;
+    width: 20%;
+    
+}
+
+.imageWrapper:hover img {
+    display: inline;
+    opacity: 0.8;
+    transform: scale(1.1);
+    transition: all .40s ease-in-out;
+}
+
+#card_UI .cornerLink {
+    opacity: 0;
+    position: absolute;
+    bottom: 0%;
+    left: 0px;
+    right: 0px;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    transition: opacity 500ms;  
+  }
+
+#card_UI:hover .cornerLink {
+    opacity: 1;
+    background-color: black;
+    color: white;
+}
+
+
+
+.team_div{
+	padding-top: 2200px;
+	height: 600px;
+	border: 0.5px ;
+	box-shadow: 2px 2px 2px 2px #ddd;
+}
+
+.team_div_p {
+	margin-top: 42px;
+	position: absolute;
+    left: 92%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    text-decoration: underline;
+}
+
